@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>forensic7z</id>
+    <version>1.5.1</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-forensic7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>forensic7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/forensic7z/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>forensic7z 7zip 7-zip 7z forensic ASR Encase AFF AccessData S01 E01 Ex01 L01 Lx01 AD1</tags>
+    <summary>You can use Forensic7z to open and browse disk images created by specialized software for forensic analysis, such as Encase or FTK Imager</summary>
+    <description>Forensic7z is a plugin for the popular 7-Zip archiver. You can use Forensic7z to open and browse disk images created by specialized software for forensic analysis, such as Encase or FTK Imager.
+
+At the moment, the Forensic7z plugin supports images in the following formats:
+
+- ASR Expert Witness Compression Format (.S01)
+- Encase Image File Format (.E01, .Ex01)
+- Encase Logical Image File Format (.L01, .Lx01)
+- Advanced Forensics Format (.AFF)
+- AccessData FTK Imager Logical Image (.AD1)
+
+Encrypted images are not currently supported
+    </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.5.1
+Distribution package release date: 14 Jan 2019
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
